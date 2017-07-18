@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="200dp"
     android:orientation="vertical"
-    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:padding="@dimen/activity_horizontal_margin"
     >
     <EditText
         android:layout_width="match_parent"
@@ -14,14 +14,18 @@
         android:hint="Email: "/>
     <Button
         android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:layout_height="wrap_content"
         android:text="Send Reset Password Email"
         android:id="@+id/resend_btn"
+        android:background="@color/colorPrimary"
         android:layout_gravity="center"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@color/colorPrimary"
         android:text="NEVERMIND"
         android:id="@+id/cancel_resend"
         />

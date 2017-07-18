@@ -1,25 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:textColor="@color/colorAccent"
     android:text="Settings"
     android:textSize="36dp"
-    android:padding="@dimen/activity_horizontal_margin"/>
+    />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_margin="32dp"
-            android:text="The current time is"
-            android:id="@+id/btn_set_time"/>
+            android:text="@string/choose_time"
+            android:id="@+id/btn_set_time"
+            android:background="@color/colorPrimary"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginRight="32dp"
-        android:text="Change ringtone"
-        android:id="@+id/btn_change_ringtone"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:text="Change ringtone"
+            android:id="@+id/btn_change_ringtone"
+            android:visibility="gone"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="32dp"
+            android:text="@string/choose_weekday"
+            android:id="@+id/btn_set_day"
+            android:background="@color/colorPrimary"/>
+
+
+        <Button android:text="Finish Setting"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="32dp"
+            android:id="@+id/finish_Setting_btn"
+            android:background="@color/colorPrimary"/>
+
+
+
 </LinearLayout>

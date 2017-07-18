@@ -7,15 +7,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="@dimen/activity_vertical_margin"
-    tools:context="com.zf.android.dinnercallwilddog.MainActivity">
+    tools:context="com.zf.android.dinnercallwilddog.Activity.MainActivity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="No Network\n No Dinner"
-        android:textSize="32dp"
+        android:text="No Network\n No Dinner \n(〃´皿`)q"
+        android:textStyle="bold"
+        android:textSize="36dp"
         android:gravity="center"
         android:visibility="gone"
-        android:id="@+id/no_network_tv"/>
+        android:id="@+id/no_network_tv" />
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="0dp"

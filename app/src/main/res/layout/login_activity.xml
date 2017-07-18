@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.zf.android.dinnercallwilddog.LoginActivity">
+    tools:context="com.zf.android.dinnercallwilddog.Activity.LoginActivity">
 
     <!-- Login progress -->
     <ProgressBar
@@ -20,12 +20,6 @@
         android:layout_marginBottom="8dp"
         android:visibility="gone"
         />
-
-    <ScrollView
-        android:id="@+id/login_form"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
 
         <LinearLayout
             android:id="@+id/email_login_form"
@@ -64,11 +58,13 @@
                 android:layout_marginTop="16dp"
                 android:text="Login"
                 android:layout_marginLeft="16dp"
+                android:background="@color/colorPrimary"
                 android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
                 <CheckBox
                     android:layout_width="0dp"
                     android:layout_weight="1"
@@ -81,14 +77,28 @@
                     android:layout_weight="1"
                     android:text="Don't have an account?"
                     android:id="@+id/email_register"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/colorPrimary"/>
             </LinearLayout>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/forget_pwd_btn"
-                android:text="Forget Password?"/>
+                android:text="Forget Password?"
+                android:background="@android:color/transparent"
+                android:textColor="#002171"
+
+                />
         </LinearLayout>
-    </ScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Network Available"
+            android:textSize="36dp"
+            android:textColor="#ff5900"
+            android:id="@+id/login_noNetwork_tv"
+            android:visibility="gone"/>
+
 
 </LinearLayout>

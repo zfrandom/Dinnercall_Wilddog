@@ -43,13 +43,22 @@
         android:layout_marginTop="16dp"
         android:id="@+id/register_btn"
         android:text="Create An Account"
+        android:background="@color/colorPrimary"
         />
-    <CheckBox
-        android:layout_width="wrap_content"
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="remember user"
-        android:paddingTop="6dp"
-        android:id="@+id/rmb_user"
-        android:layout_gravity="left"
-        />
+        android:text="No Network Available"
+        android:textSize="36dp"
+        android:textColor="#ff5900"
+        android:id="@+id/login_noNetwork_tv"
+        android:visibility="gone"/>
+    <!--<CheckBox-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="remember user"-->
+        <!--android:paddingTop="6dp"-->
+        <!--android:id="@+id/rmb_user"-->
+        <!--android:layout_gravity="left"-->
+        <!--/>-->
 </LinearLayout>

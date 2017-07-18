@@ -12,6 +12,19 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="choose_time">目前提醒时间是</string>
+    <string name="choose_weekday">重复</string>
+    <string name="from_mon_to_fri">周一到周五</string>
+    <string name="everyday">每天</string>
+    <string name="monday">周一</string>
+    <string name="tue">周二</string>
+    <string name="wed">周三</string>
+    <string name="thur">周四</string>
+    <string name="fri">周五</string>
+    <string name="sat">周六</string>
+    <string name="sun">周日</string>
     <string name="current_time">The reminding time is %1$s</string>
     <string name="current_ringtone">The current ringtone is %1$s</string>
+    <string name="cycle_sure">确定</string>
+    <string name="diy_day">自定义</string>
 </resources>

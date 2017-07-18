@@ -9,6 +9,7 @@
         android:text="Coming home for dinner?"
         android:layout_gravity="center"
         android:textSize="30dp"
+        android:textColor="@color/colorAccent"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin"/>
     <Button
@@ -16,6 +17,8 @@
         android:layout_height="wrap_content"
         android:text="YES"
         android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"
         android:id="@+id/yes_button"/>
     <Button
         android:layout_width="match_parent"
@@ -23,6 +26,7 @@
         android:text="NO"
         android:textSize="30dp"
         android:id="@+id/no_button"
+        android:background="@color/colorPrimary"
         android:layout_marginTop="@dimen/activity_vertical_margin"/>
     <Button
         android:layout_width="match_parent"
@@ -30,6 +34,7 @@
         android:id="@+id/idk_btn"
         android:layout_marginTop="16dp"
         android:text="I don't know yet"
+        android:background="@color/colorPrimary"
         android:textSize="30dp"
         />
 </LinearLayout>
