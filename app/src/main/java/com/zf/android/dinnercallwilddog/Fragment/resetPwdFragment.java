@@ -1,4 +1,4 @@
-package com.zf.android.dinnercallwilddog.Activity;
+package com.zf.android.dinnercallwilddog.Fragment;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -16,6 +16,7 @@ import android.widget.Toast;
 import com.wilddog.wilddogauth.WilddogAuth;
 import com.wilddog.wilddogauth.core.Task;
 import com.wilddog.wilddogauth.core.listener.OnCompleteListener;
+import com.zf.android.dinnercallwilddog.Activity.LoginActivity;
 import com.zf.android.dinnercallwilddog.R;
 
 import static android.app.Activity.RESULT_OK;
