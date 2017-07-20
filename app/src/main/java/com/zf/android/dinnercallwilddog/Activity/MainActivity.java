@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements NetworkReceiver.M
     private void initializeVariables(){
         mListOfMessage = (ListView) findViewById(R.id.list_of_messages);
 
-        WilddogOptions options = new WilddogOptions.Builder().setSyncUrl("https://3245.wilddogio.com").build();
+        WilddogOptions options = new WilddogOptions.Builder().setSyncUrl("wilddog database url").build();
         WilddogApp.initializeApp(this, options);
 
         mWilddogRef = WilddogSync.getInstance().getReference().child("chat");
